@@ -125,9 +125,8 @@ The models were evaluated using classification metrics.
 ![Classification Report](images/classification_report.png)
 
 ---
-### Model Comparison
-
-Among the three models, **XGBoost achieved the best performance** with an accuracy of **91%**, outperforming Logistic Regression and SVM. This indicates that tree-based ensemble models are more effective for capturing complex relationships in the weather dataset.
+## Model Comparison
+Among the three models, XGBoost achieved the best performance with an accuracy of 91%, outperforming Logistic Regression and SVM. This indicates that tree-based ensemble models are more effective for capturing complex relationships in the weather dataset.
 ---
 ## 🔍 Key Insights
 
