@@ -13,14 +13,14 @@ Rainfall prediction is important for agriculture, disaster management, water res
 
 This project applies multiple machine learning algorithms to classify rainfall into different categories based on weather parameters.
 
----
+
 
 ## 📊 Dataset
 The dataset contains weather-related features that influence rainfall. These features may include atmospheric and environmental parameters such as temperature, humidity, pressure, wind conditions, and other meteorological variables.
 
 Data preprocessing steps are applied to clean and prepare the dataset for model training.
 
----
+
 
 ## 🌦️ Rainfall Categories
 The rainfall values are transformed into categorical labels to convert the prediction task into a classification problem.
@@ -33,7 +33,7 @@ The categories used are:
 - Heavy Rain
 - Very Heavy Rain
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -92,7 +92,7 @@ Exploratory Data Analysis (EDA) helps understand rainfall patterns and feature r
 ![Boxplot](images/boxplot.png)
 
 
----
+
 
 ### 5. Feature Engineering
 Key feature engineering steps include:
