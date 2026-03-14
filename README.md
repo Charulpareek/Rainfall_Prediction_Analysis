@@ -124,15 +124,15 @@ The models were evaluated using classification metrics.
 ### Classification Report
 ![Classification Report](images/classification_report.png)
 
----
+
 
 ### Model Comparison
 
 Among the three models, XGBoost achieved the best performance with an accuracy of 91%, outperforming Logistic Regression and SVM. This indicates that tree-based ensemble models are more effective for capturing complex relationships in the weather dataset.
 
----
 
----
+
+
 ## 🔍 Key Insights
 
 - Rainfall distribution shows most observations fall within the light to moderate rainfall category.
@@ -168,9 +168,8 @@ cd Rainfall_Prediction_Analysis
 ```
 
 ### 3️⃣ Install required libraries
-```markdown
+
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
-```
 
 ### 4️⃣ Run the notebook
 
@@ -207,4 +206,6 @@ Rainfall prediction models can be useful in several real-world applications:
 
 ## 👨‍💻 Author
 
-This project was developed as part of a machine learning study focused on weather data analysis and rainfall prediction.
+## Author
+
+Developed as part of a machine learning project focused on weather data analysis and rainfall prediction using classification models.
