@@ -206,6 +206,4 @@ Rainfall prediction models can be useful in several real-world applications:
 
 ## 👨‍💻 Author
 
-## Author
-
 Developed as part of a machine learning project focused on weather data analysis and rainfall prediction using classification models.
