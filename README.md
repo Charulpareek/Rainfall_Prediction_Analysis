@@ -51,6 +51,14 @@ The categories used are:
 
 ### 1. Data Loading
 The dataset is loaded using the **Pandas** library for data analysis.
+## Dataset
+
+Dataset used in this project: Historical Weather Data of Goa, India.
+
+Source:
+https://www.kaggle.com/datasets/nitinsss/goa-india-weather-data
+
+The dataset contains meteorological observations recorded every 15 minutes including temperature, humidity, pressure, wind speed, wind direction, rainfall, and solar radiation.
 
 ### 2. Data Exploration
 Initial exploration is performed to understand the dataset structure:
@@ -137,7 +145,7 @@ The models were evaluated using classification metrics.
     Rainfall_Prediction_Analysis
     │
     ├── dataset
-    │ └── Book1.csv
+    │ └── goa_weather_data.csv
     │
     ├── Rainfall_Prediction.ipynb
     │
