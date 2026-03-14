@@ -91,7 +91,6 @@ Exploratory Data Analysis (EDA) helps understand rainfall patterns and feature r
 ### Boxplot for Outliers
 ![Boxplot](images/boxplot.png)
 
-*(Replace these images with screenshots from your notebook visualizations.)*
 
 ---
 
@@ -116,22 +115,19 @@ The models were evaluated using classification metrics.
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |------|------|------|------|------|
-| Logistic Regression | -- | -- | -- | -- |
-| SVM | -- | -- | -- | -- |
-| XGBoost | -- | -- | -- | -- |
-
-*(Update these values with the results from your notebook.)*
+| Logistic Regression | 0.65 | 0.59 | 0.65 | 0.60 |
+| SVM | 0.79 | 0.82 | 0.79 | 0.76 |
+| XGBoost | 0.91 | 0.91 | 0.91 | 0.91 |
 
 ---
-
-### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
 
 ### Classification Report
 ![Classification Report](images/classification_report.png)
 
-*(Add screenshots of model evaluation results here.)*
+---
+### Model Comparison
 
+Among the three models, **XGBoost achieved the best performance** with an accuracy of **91%**, outperforming Logistic Regression and SVM. This indicates that tree-based ensemble models are more effective for capturing complex relationships in the weather dataset.
 ---
 ## 🔍 Key Insights
 
